@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+body {
+    background: #EC6F66;
+    background: -webkit-linear-gradient(to left, #EC6F66, #F3A183);
+    background: linear-gradient(to left, #EC6F66, #F3A183);
+}
+
+#cards-container {
+    padding-top: 50px;
+}
+
+#cards-container .row {
+    margin: 0;
+    padding: 0;
+    font-family: 'Robot', sans-serif;
+}
+
+#cards-container .row .flash-card {
+    cursor: pointer;
+    padding-bottom: 30px;
+}
+
+#cards-container .row .flash-card .card-header {
+    position: relative;
+    background: #2980b9;
+    background: -webkit-linear-gradient(to left, #2980b9, #2c3e50);
+    background: linear-gradient(to left, #2980b9, #2c3e50);
+    padding: 30px 30px;
+    text-align: center;
+    min-height: 225px;
+    min-width: 150px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    color: #a7bfe8; /* header ideally should have image, not text */
+}
+
+#cards-container .row .card-description {
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #d7d2cc;
+    color: #49a09d;
+    font-size: 17px;
+    text-align: center;
+    height: 175px;
+}
+
+#cards-container .row .flash-card .card-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-overlay {
+    cursor: default;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.overlay-shadow {
+    height: inherit;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto 15px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 25%;
+    margin: auto;
+    color: #fff;
+    font-size: 40px;
+}
