@@ -22,16 +22,14 @@ body {
 
 #cards-container .row .flash-card .card-header {
     position: relative;
-    background: #2980b9;
-    background: -webkit-linear-gradient(to left, #2980b9, #2c3e50);
-    background: linear-gradient(to left, #2980b9, #2c3e50);
     padding: 30px 30px;
     text-align: center;
     min-height: 225px;
     min-width: 150px;
     border-top-right-radius: 4px;
     border-top-left-radius: 4px;
-    color: #a7bfe8; /* header ideally should have image, not text */
+    color: #a7bfe8;
+    /* header ideally should have image, not text */
 }
 
 #cards-container .row .card-description {
@@ -86,4 +84,43 @@ body {
     margin: auto;
     color: #fff;
     font-size: 40px;
+}
+
+
+/* Gradient colors for card background */
+
+.gcolor-1 {
+    background: #56CCF2;
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+    background: linear-gradient(to right, #2F80ED, #56CCF2);
+}
+
+.gcolor-2 {
+    background: #e53935;
+    background: -webkit-linear-gradient(to right, #e35d5b, #e53935);
+    background: linear-gradient(to right, #e35d5b, #e53935);
+}
+
+.gcolor-3 {
+    background: #ff8008;
+    background: -webkit-linear-gradient(to right, #ff8008, #ffc837);
+    background: linear-gradient(to right, #ff8008, #ffc837);
+}
+
+.gcolor-4 {
+    background: #fffc00;
+    background: -webkit-linear-gradient(to right, #fffc00, #ffcc33);
+    background: linear-gradient(to right, #fffc00, #ffcc33);
+}
+
+.gcolor-5 {
+    background: #56ab2f;
+    background: -webkit-linear-gradient(to right, #56ab2f, #a8e063);
+    background: linear-gradient(to right, #56ab2f, #a8e063);
+}
+
+.gcolor-6 {
+    background: #6a3093;
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+    background: linear-gradient(to right, #a044ff, #6a3093);
 }
